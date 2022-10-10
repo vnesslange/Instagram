@@ -21,4 +21,4 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-[ezgif com-gif-maker-7](https://user-images.githubusercontent.com/67447055/194806785-29e92b87-4b29-411d-82fc-813310df195b.gif)
+![](ezgif.com-gif-maker-7.gif)

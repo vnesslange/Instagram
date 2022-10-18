@@ -21,6 +21,7 @@
 		C520558F28F36BE00060B289 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520558E28F36BE00060B289 /* LoginViewController.swift */; };
 		C520559128F3CCCB0060B289 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520559028F3CCCB0060B289 /* CameraViewController.swift */; };
 		C520559328F3DB080060B289 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520559228F3DB080060B289 /* PostCell.swift */; };
+		C5B2FB6E28FE3E6000E4ED2D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B2FB6D28FE3E6000E4ED2D /* CommentCell.swift */; };
 		D2D61EEB559CEF4B3D92DA88 /* Pods_InstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB2B822DA101EFABD79BFE /* Pods_InstagramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		C520558E28F36BE00060B289 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C520559028F3CCCB0060B289 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		C520559228F3DB080060B289 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C5B2FB6D28FE3E6000E4ED2D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		EE65ECE98DA3265FC30BB700 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		FA88794C502E3F5FBA341A63 /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 				C520558E28F36BE00060B289 /* LoginViewController.swift */,
 				C520559028F3CCCB0060B289 /* CameraViewController.swift */,
 				C520559228F3DB080060B289 /* PostCell.swift */,
+				C5B2FB6D28FE3E6000E4ED2D /* CommentCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				C520558D28F36BC00060B289 /* FeedViewController.swift in Sources */,
 				C520555F28F35DE40060B289 /* SceneDelegate.swift in Sources */,
 				C520559328F3DB080060B289 /* PostCell.swift in Sources */,
+				C5B2FB6E28FE3E6000E4ED2D /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95ZA92WURU;
@@ -625,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95ZA92WURU;
